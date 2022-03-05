@@ -13,5 +13,7 @@ public class PermaLink{
 //    Ubuntu iso   download  : https://ubuntu.com/download/desktop/thank-you?version=20.04.4&architecture=amd64
 //    Docker                 : https://docs.docker.com/desktop/windows/install/
 //    online Html+css+js     : https://codepen.io/trending
+//    google maps embedded   : https://www.maps.ie/create-google-map/
+
 }
 

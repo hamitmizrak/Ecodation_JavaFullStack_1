@@ -14,6 +14,7 @@ public class PermaLink{
 //    Docker                 : https://docs.docker.com/desktop/windows/install/
 //    online Html+css+js     : https://codepen.io/trending
 //    google maps embedded   : https://www.maps.ie/create-google-map/
+//    jsonplaceHolder fake api : https://jsonplaceholder.typicode.com/
 
 }
 

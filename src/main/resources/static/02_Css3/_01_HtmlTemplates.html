@@ -1,17 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
   <head>
     <title>Css3 Templates</title>
-    <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+
+    <!-- internal css bütün sayfadaki taglere erişmek -->
+    <!-- internal css -->
+    <style>
+      h4 {
+        background: black;
+        color: white;
+      }
+    </style>
+
+<!-- external css: bütün projeyi tagleri çalıştırmak -->
+<link rel="stylesheet" href="./style.css">
+
   </head>
   <body>
-      <!-- start code -->
+    <!-- start code -->
 
+    <!-- inline css: sadece o tagte çalışır -->
+    <p  style="color: blue">Merhabalar Css3</p>
+    <h4 class="className">h4 1</h4>
+    <h4>h4 2</h4>
+    <h4>h4 3</h4>
 
-      
-      <!-- ends code -->
+    <br> <br>
+    <h5>h5 1</h5>
+    <h5 class="className" >h5 2</h5>
+    <h5 id="idName">h5 3</h5>
+    <h5 class="className">h5 4</h5>
+
+    <!-- ends code -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
   </body>

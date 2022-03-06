@@ -1,0 +1,67 @@
+h5{
+    background-color: brown;
+    color:white;
+    font-size:5rem;
+}
+
+
+ /* 0123456789abcdef */
+ /* Sıfır Siyah
+ key:value
+ */
+ /* class: birden fazla tag'e değer vermek*/
+.className{
+    background:#47228b ;
+    color:chocolate
+}
+
+ /* id: tek bileşenler için kullanıyoruz.
+ !important: zorunlu olarak kabul ettiriyorum
+ */
+#idName{
+    background:#f0f1ca!important ;
+    color:black;
+}
+
+/* div */
+div{
+    background-color: blue;
+    color:rgba(255,255,255,.9);
+    height: 200px;
+    width: 23%;
+    /* padding: ; iç boşluk  saatin dönme yönünde
+    top left bottom right
+    */
+     /* padding: 5px  6px  7px 8px ;  */
+     /* padding-top:6px: sadece yukardan 6 px iç boşluk olur */
+     padding:5px 3px; 
+
+     /* margin:dış boşluk */
+     margin:3px 3px ;
+     border:5px solid rgb(5,5,5);
+     /* border-radius: 50%; */
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+     font-size: 15px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: 800;
+     display: inline-block;
+     text-align: justify;
+     
+}
+
+
+#specialParagrag{
+    text-align: justify; 
+    margin:2px 12px;
+    text-indent: 50px;
+    text-decoration: underline;
+
+    letter-spacing: .1px;
+    word-spacing: .1px;
+    line-height: 25px;
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-rule: 10px solid red;
+}

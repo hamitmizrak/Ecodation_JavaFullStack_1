@@ -15,7 +15,8 @@ public class PermaLink{
 //    online Html+css+js       : https://codepen.io/trending
 //    google maps embedded     : https://www.maps.ie/create-google-map/
 //    jsonplaceHolder fake api : https://jsonplaceholder.typicode.com/
-//    font-awesome             :https://fontawesome.com/download
+//    font-awesome             : https://fontawesome.com/download
+//    google font              : https://fonts.google.com/
 
 }
 

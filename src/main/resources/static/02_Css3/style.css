@@ -84,6 +84,8 @@ div {
     "Lucida Sans", Arial, sans-serif;
   font-weight: 800;
   display: inline-block;
+  /* display: flex;
+  flex-direction: column-reverse; */
   text-align: justify;
 }
 
@@ -170,7 +172,7 @@ en fazla : 800px ve altında */
        
     header{
         max-width:100%; 
-        height: 150px; 
+        height: 95vh; 
         cursor: pointer;
         object-fit: none;
         object-position: top;

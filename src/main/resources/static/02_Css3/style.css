@@ -65,3 +65,18 @@ div{
     -moz-column-count: 3;
     column-rule: 10px solid red;
 }
+
+/* cd */
+.clearFix::before{
+    content: "";
+    clear: both;
+    display:block;
+}
+
+#floatLeftID{
+float:left;
+}
+
+#floatRightID{
+float:right;
+}

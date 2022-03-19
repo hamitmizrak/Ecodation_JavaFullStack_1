@@ -235,68 +235,142 @@
 //proje  hızlı sağlamak
 
 // //function-1.1
-// function hesaplama() {
-//   let x1, x2, x3
-//   x1 = 10
-//   x2 = 20
-//   x3 = x1 + x2
-//   console.log(x3);
-// }
-// hesaplama();
-
-// //function-1.2 ==> Parametreli
-// function hesaplama2(x1, x2) {
-//     let x3
-//     x3 = x1 + x2
-//     console.log(x3);
-//   }
-//   hesaplama2(10,20);
-
-
-// //function-1.3 ==> return
-// function hesaplama2(x1, x2) {
-//     return x1 + x2;
-//   }
-//   //değişkeni başka bir hesaplamada kullanmak istersek
-// let cay=  hesaplama2(10,20);
-// console.log(cay)
-
-//function-2
-//normal
-function ekrandaYaz1(){
-    console.log("Normal Ekranda göster")
+function hesaplama() {
+  let x1, x2, x3
+  x1 = 10
+  x2 = 20
+  x3 = x1 + x2
+  console.log(x3)
 }
-ekrandaYaz1();
+//hesaplama();
+
+//function-1.2 ==> Parametreli
+function hesaplama2(x1, x2) {
+  let x3
+  x3 = x1 + x2
+  console.log(x3)
+}
+//hesaplama2(10,20);
+
+//function-1.3 ==> return
+function hesaplama2(x1, x2) {
+  return x1 + x2
+}
+//değişkeni başka bir hesaplamada kullanmak istersek
+let cay = hesaplama2(10, 20)
+//console.log(cay)
+
+// function-2
+// normal
+function ekrandaYaz1() {
+  console.log('Normal Ekranda göster')
+}
+//ekrandaYaz1();
 
 // değişkenli function
-let isimsiz1=   function ekrandaYaz2(){
-    console.log("değişkenli function")
+let isimsiz1 = function ekrandaYaz2() {
+  console.log('değişkenli function')
 }
-isimsiz1();
+//isimsiz1();
 
 //anonymous function : isimsiz fonksiyon
-let isimsiz2=   function (){
-    console.log("anonymous function")
+let isimsiz2 = function () {
+  console.log('anonymous function')
 }
-isimsiz2();
+//isimsiz2();
 
 //function-3
 //arrow function : ok fonksiyon
 // ()=>{}
-let arrow= ()=>{console.log("arrow function ")}
-arrow();
+let arrow = () => {
+  console.log('arrow function ')
+}
+//arrow();
 
 //function-4
 //Immedia Function: fonksiyonu çağırmadan kullanıyoruz.
 // ()()
-(function ekrandaYaz2(){
-    console.log("değişkenli function")
+;(function ekrandaYaz2() {
+  console.log('değişkenli function')
 })()
 
 /////////////////////////////////////////////
-//isim ve isimimizi console çıktısı gösterecek
-// 1-)Normal Function 
+//isim ve soyisimi console çıktısı gösterecek
+// 1-)Normal Function
 // 2-)değişkenli function
 // 3-)anonymous
-// 4-)arrow function 
-// 5-)Hemen function
+// 4-)arrow function ()=>{}
+// 5-)Hemen function ()()
+
+///////////////////////////////////////////////
+//condition
+// let karar=()=>{
+//     let sayi="5";
+
+//     if(sayi===5){
+//         console.log("sayı 5 tir")
+//     }else{
+//         console.log("farklıdır")
+//     }
+// }
+// karar();
+
+// //ternary
+// let karar2=()=>{
+// //ternary: ya dpğru ya yanlış ==> ()?:;
+// let sayi="5";
+// console.log((sayi===5) ?"sayı 5 tir":"farklıdır")
+// }
+// karar2();
+
+// //çoklu if -elseif-else
+// let karar3 = () => {
+//   let sayi = 5
+
+//   if (sayi === 1) {
+//     console.log('sayı 1 tir')
+//   } else if (sayi == 2) {
+//     console.log('sayı 2 tir')
+//   } else if (sayi == 3) {
+//     console.log('sayı 3 tir')
+//   } else if (sayi == 4) {
+//     console.log('sayı 4 tir')
+//   } else if (sayi == 5) {
+//     console.log('sayı 5 tir')
+//   } else {
+//     console.log('farklıdır')
+//   }
+// }
+// karar3()
+
+
+// //switch case
+// let karar4 = () => {
+//     let sayi = 5
+//     switch (sayi) {
+//       case 1:
+//         console.log('sayı 1 tir')
+//         break
+
+//       case 2:
+//         console.log('sayı 2 tir')
+//         break
+
+//       case 3:
+//         console.log('sayı 3 tir')
+//         break
+
+//       case 4:
+//         console.log('sayı 4 tir')
+//         break
+//       case 5:
+//         console.log('sayı 5 tir')
+//         break
+  
+//       default:
+//         console.log('farklıdır')
+//         break
+//     }
+//   }
+//   karar4();
+

@@ -34,7 +34,6 @@
 // const pi=3.14;
 // console.log(pi);
 
-
 //////////////////////////////////////////////////////////////////
 //type: number, string, boolean
 // var scope=14.55;
@@ -61,7 +60,7 @@
 // var x1,x2,x3;
 
 //logic operators
-//&&=Ve ||=VeYa  !=not 
+//&&=Ve ||=VeYa  !=not
 
 //mathematics operator
 // + - * /=bölüm %=bölümünden kalan
@@ -87,7 +86,6 @@
 /////////////////////////////////////////////////////////////
 //kullanıcıdan veri almak istiyorum.
 
-
 //prompt: string döner
 // var _sayi= Number(prompt("Lütfen bir sayı giriniz"));
 // let sonuc=(_sayi**_sayi);
@@ -103,7 +101,6 @@
 
 // alert("sonuc ${''}")
 
-
 ///////////////////////////////////////////////////
 // // NaN=Not A Number
 // console.log(16/"asd")
@@ -112,16 +109,31 @@
 // var sayi=3/0;
 // console.log(sayi);
 
-
 //////////////////////////////////////////////////
 //Math
+console.log(Math.PI)
+console.log(Math.E)
 
+//Mutlaka Abs olmalı
+console.log(Math.abs(-44))
 
+console.log(Math.sqrt(Math.abs(-16)))
 
+console.log(Math.min(1, 2, 3, 6, 4, 5, 6, 8, -999))
+console.log(Math.max(1, 2, 3, 6, 4, 5, 6, 8, -999))
 
+//aşağı yuvarlamak
+console.log(Math.floor(4, 9))
 
+//yukarı yuvarlamak
+console.log(Math.ceil(4.1))
 
+console.log(Math.round(3.4))
 
+//üslü sayılar
+console.log(Math.pow(4, 2))
 
+//random:rastgele sayılar üretmek için
+console.log(Math.round(Math.random() * 2 + 1))
 
-
+//////////////////////////////////////////////////////////

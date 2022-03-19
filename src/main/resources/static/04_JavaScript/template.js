@@ -343,7 +343,6 @@ let arrow = () => {
 // }
 // karar3()
 
-
 // //switch case
 // let karar4 = () => {
 //     let sayi = 5
@@ -366,7 +365,7 @@ let arrow = () => {
 //       case 5:
 //         console.log('sayı 5 tir')
 //         break
-  
+
 //       default:
 //         console.log('farklıdır')
 //         break
@@ -374,3 +373,93 @@ let arrow = () => {
 //   }
 //   karar4();
 
+//////////////////////////////////////////////////////
+//Loop
+console.log(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
+
+//FOR
+//Başlangıç: let i=1
+//Bitiş: i<=10
+//artırmak i++
+//artırmak i=i+1
+//artırmak i+=1
+// for(let i=1; i<=10; i+=1){
+// console.log(i+". sayı")
+// }
+
+//while
+//Başlangıç: let i=1
+//Bitiş: i<=10
+//artırmak i++
+//artırmak i=i+1
+//artırmak i+=1
+
+// let k=1;
+// while(k<=10){
+//     console.log(k+". sayı")
+//     k++;
+// }
+
+//do-while
+// let m=1;
+// do {
+//     console.log("ister şart sağlansın ister sağlamasın 1 kere çalışır"+m)
+//     m++;
+// } while (m==1);
+
+console.log(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
+//toplamada etkisiz eleman 0
+
+let sum = 0 //başlangıç
+for (let index = 1; index <= 100; index++) {
+  sum = sum + index
+}
+console.log(sum)
+
+// kullanıcıdan alına bir sayıyı negatif mi pozitif mi? arrow function
+let isNegative = () => {
+  let number = Number(prompt('Lütfen bir sayı giriniz'))
+  let result = number < 0 ? 'negatiftir' : 'pozitiftir'
+  console.log(result)
+}
+//isNegative();
+
+//continue:Es geçer
+//break:döngünün çalışmasını engeller(durdurur)
+//return:metodun çalışmasını engeller(durdurur)
+
+let number5 = () => {
+  let sum = 0 //başlangıç
+  for (let index = 1; index <= 10; index++) {
+
+    if(index>=8) break;
+
+      if(index==4){
+          continue; 
+      }
+    sum = sum + index
+  }
+  console.log("sonuç: "+sum)
+}
+number5();
+
+
+//S-1)
+//a-1) 1-10 arasındaki tek çift sayılar
+//a-2) 1-10 arasındaki 4 dahil olmayacak ==> continue
+//a-3-) 1-100 arasında 5'e bölünebilen kaç tane sayı vardır ve bu sayılar?
+let isEven = () => {
+  let number = Number(prompt('Lütfen bir sayı giriniz'))
+  let result = number % 2 == 0 ? 'çifttir' : 'tektir'
+  console.log(result)
+}
+isEven()
+
+//dereceyi fahrenhayta çeviren function yazalım
+//Mutlak değer hesaplayan function yazalım ? Math.abs()
+//üslü sayı alan fonksiyon yazalım Math.pow()
+//v.k.i
+//Kullanıcıdan aldığımız adımız ve soyadımızı string metotlarını kullanacağız.
+
+//Kullanıcıdan aldığımız kelime(Hamit Mızrak) maskeleme yapalım ?
+//H**** M*****

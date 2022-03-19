@@ -176,40 +176,127 @@
 // //Bu sayı değil mi : true dönüyorsa bu sayı değildir.
 // console.log(isNaN(sayi5));
 
-
-
 //////////////////////////////////////////////////////////
 //METINSEL
-let metinsel="secret Html5 Css3 js Html5  ";
+// let metinsel="secret Html5 Css3 js Html5  ";
 
-//kelime harf sayısını verir
-//length: harf sayısını verir unutmayalım () yazmıyoruz.
-console.log(metinsel.length);
+// //kelime harf sayısını verir
+// //length: harf sayısını verir unutmayalım () yazmıyoruz.
+// console.log(metinsel.length);
 
-//kelimenin hepsini büyük harfe çevirir
-console.log(metinsel.toUpperCase());
+// //kelimenin hepsini büyük harfe çevirir
+// console.log(metinsel.toUpperCase());
 
-//kelimenin hepsini küçük harfe çevirir
-console.log(metinsel.toLowerCase());
+// //kelimenin hepsini küçük harfe çevirir
+// console.log(metinsel.toLowerCase());
 
-//vermiş olduğumuz indise karşılık harfi bana döner
-//charAt(): 0(sıfır) indistenn başlar
-console.log(metinsel.charAt(10));
+// //vermiş olduğumuz indise karşılık harfi bana döner
+// //charAt(): 0(sıfır) indistenn başlar
+// //alternative: charCodeAt()
+// console.log(metinsel.charAt(10));
 
-//indexOf(): soldan sağa doğru arama yapar ilk bulduğu yerin sayısını döner
-console.log(metinsel.indexOf("Html5"))
+// //indexOf(): soldan sağa doğru arama yapar ilk bulduğu yerin sayısını döner
+// //alternatice: search()
+// console.log(metinsel.indexOf("Html5"))
 
-//lastindexOf(): sağa sola doğru arama yapar ilk bulduğu yerin sayısını döner
-console.log(metinsel.lastIndexOf("Html5"))
+// //lastindexOf(): sağa sola doğru arama yapar ilk bulduğu yerin sayısını döner
+// console.log(metinsel.lastIndexOf("Html5"))
 
-//substring:kelimeyi parçalama
-console.log(metinsel.substring(6));
-console.log(metinsel.substring(0,6)); //0<=X<6
+// //substring:kelimeyi parçalama
+// //alternative:slice()
+// console.log(metinsel.substring(6));
+// console.log(metinsel.substring(0,6)); //0<=X<6
 
-// trim: boşlukları almak için kullanıyoruz
-console.log(metinsel.length)
-console.log(metinsel.trim().length)
+// // trim: boşlukları almak için kullanıyoruz
+// console.log(metinsel.length)
+// console.log(metinsel.trim().length)
 
-//replace: değiştirmek için kullanıyoruz
-//replace(eskisi,yenisi)
-console.log(metinsel.replace(metinsel,"asd"))
+// //replace: değiştirmek için kullanıyoruz
+// //replace(eskisi,yenisi)
+// console.log(metinsel.replace(metinsel,"asd"))
+
+/////////////////////////////////////////////
+// try {
+//   alet('Merhablar');
+// } catch (error) {
+//   alert("name:"+error.name)
+//   alert("message"+error.message)
+//   throw  "Doğru yaz"; //kendi istisna durumumuzu oluşturuyoruz.
+// } finally {
+//   console.log('db.close')
+//   console.log('port.close')
+// }
+
+/////////////////////////////////////////////
+//function-1
+//kod tekrarlarımızın önüne geçmek,
+//clean code yazmamıza yardımcı
+//okunarbiliriğini artırmak
+//proje  hızlı sağlamak
+
+// //function-1.1
+// function hesaplama() {
+//   let x1, x2, x3
+//   x1 = 10
+//   x2 = 20
+//   x3 = x1 + x2
+//   console.log(x3);
+// }
+// hesaplama();
+
+// //function-1.2 ==> Parametreli
+// function hesaplama2(x1, x2) {
+//     let x3
+//     x3 = x1 + x2
+//     console.log(x3);
+//   }
+//   hesaplama2(10,20);
+
+
+// //function-1.3 ==> return
+// function hesaplama2(x1, x2) {
+//     return x1 + x2;
+//   }
+//   //değişkeni başka bir hesaplamada kullanmak istersek
+// let cay=  hesaplama2(10,20);
+// console.log(cay)
+
+//function-2
+//normal
+function ekrandaYaz1(){
+    console.log("Normal Ekranda göster")
+}
+ekrandaYaz1();
+
+// değişkenli function
+let isimsiz1=   function ekrandaYaz2(){
+    console.log("değişkenli function")
+}
+isimsiz1();
+
+//anonymous function : isimsiz fonksiyon
+let isimsiz2=   function (){
+    console.log("anonymous function")
+}
+isimsiz2();
+
+//function-3
+//arrow function : ok fonksiyon
+// ()=>{}
+let arrow= ()=>{console.log("arrow function ")}
+arrow();
+
+//function-4
+//Immedia Function: fonksiyonu çağırmadan kullanıyoruz.
+// ()()
+(function ekrandaYaz2(){
+    console.log("değişkenli function")
+})()
+
+/////////////////////////////////////////////
+//isim ve isimimizi console çıktısı gösterecek
+// 1-)Normal Function 
+// 2-)değişkenli function
+// 3-)anonymous
+// 4-)arrow function 
+// 5-)Hemen function

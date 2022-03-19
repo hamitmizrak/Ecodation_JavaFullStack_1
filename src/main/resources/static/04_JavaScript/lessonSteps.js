@@ -7,7 +7,7 @@
 // Jquery
 
 // JavaSE
-// JDBC
+// JDBC Mysql,Postgresql
 
 // Design pattern
 // Clean codes

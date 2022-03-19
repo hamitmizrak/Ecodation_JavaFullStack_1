@@ -431,9 +431,7 @@ let isNegative = () => {
 let number5 = () => {
   let sum = 0 //başlangıç
   for (let index = 1; index <= 10; index++) {
-
     if(index>=8) break;
-
       if(index==4){
           continue; 
       }

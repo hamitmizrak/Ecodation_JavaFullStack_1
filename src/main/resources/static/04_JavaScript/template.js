@@ -101,7 +101,7 @@
 
 // alert("sonuc ${''}")
 
-///////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
 // // NaN=Not A Number
 // console.log(16/"asd")
 
@@ -109,31 +109,75 @@
 // var sayi=3/0;
 // console.log(sayi);
 
-//////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
 //Math
-console.log(Math.PI)
-console.log(Math.E)
+// console.log(Math.PI)
+// console.log(Math.E)
 
-//Mutlaka Abs olmalı
-console.log(Math.abs(-44))
+// //Mutlaka Abs olmalı
+// console.log(Math.abs(-44))
 
-console.log(Math.sqrt(Math.abs(-16)))
+// console.log(Math.sqrt(Math.abs(-16)))
 
-console.log(Math.min(1, 2, 3, 6, 4, 5, 6, 8, -999))
-console.log(Math.max(1, 2, 3, 6, 4, 5, 6, 8, -999))
+// console.log(Math.min(1, 2, 3, 6, 4, 5, 6, 8, -999))
+// console.log(Math.max(1, 2, 3, 6, 4, 5, 6, 8, -999))
 
-//aşağı yuvarlamak
-console.log(Math.floor(4, 9))
+// //aşağı yuvarlamak
+// console.log(Math.floor(4, 9))
 
-//yukarı yuvarlamak
-console.log(Math.ceil(4.1))
+// //yukarı yuvarlamak
+// console.log(Math.ceil(4.1))
 
-console.log(Math.round(3.4))
+// console.log(Math.round(3.4))
 
-//üslü sayılar
-console.log(Math.pow(4, 2))
+// //üslü sayılar
+// console.log(Math.pow(4, 2))
 
-//random:rastgele sayılar üretmek için
-console.log(Math.round(Math.random() * 2 + 1))
+// //random:rastgele sayılar üretmek için
+// console.log(Math.round(Math.random() * 2 + 1))
 
 //////////////////////////////////////////////////////////
+
+//SAYISAL
+let sayi1=44;
+console.log(sayi1);
+
+let sayi2=44.23;
+console.log(sayi2);
+
+//cast(dönüştürme)
+let sayi3=Number("55");
+console.log(sayi3)
+
+const bilimselGosterim=452e+5;
+console.log(bilimselGosterim)
+
+//diğer tabanlardan 10luk tabana çevirme
+//2 lik sayı: 0-1
+const binaryNumber=0b1011;
+console.log(binaryNumber)
+
+//16 lik sayı: 0123456789ABCDEF
+const hexadecimalNumber=0xABC;
+console.log(hexadecimalNumber)
+
+//10 luk tabandan diğer tabanları
+let sayi4=66;
+console.log(sayi4.toString(2));//binary
+console.log(sayi4.toString(8));//octal
+console.log(sayi4.toString(10));//decimal
+console.log(sayi4.toString(16));//hexadecimal
+
+//NaN
+const sayi5=44/"asd";
+console.log(sayi5)
+
+//isNaN
+//Bu sayı değil mi : true dönüyorsa bu sayı değildir.
+console.log(isNaN(sayi5));
+
+
+
+//////////////////////////////////////////////////////////
+
+//METINSEL

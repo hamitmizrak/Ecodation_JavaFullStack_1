@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ecodation Blog Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Jquery ui  css and js    -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+    <!-- start codes -->
+
+    <!-- navbar start -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">LOGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#new_paper">Yeni Haberler</a>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 mr-3">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-user"> </i> Üye
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Üye Girişi</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#register" href="#">Üye
+                                    Ol</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">...</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 mr-5">
+                    <li class="nav-item ">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- login modal -->
+
+    <!-- register modal -->
+    <div class="modal fade" id="register">
+        <div class="modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Üye Ol</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3 class="text-center text-success">Register</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group">
+                                <span class="col-md-3"> <label for="name_surname" class="text-muted">Adınız
+                                        Soyadınız</label></span>
+                                <span class="col-md-9"> <input type="text" name="name_surname" id="name_surname"
+                                        class="form-control" required autofocus></span>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-3"> <label for="email" class="text-muted">email </label></span>
+                                <span class="col-md-9"> <input type="email" name="email" id="email" class="form-control"
+                                        required></span>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-md-3"> <label for="password" class="text-muted">password
+                                    </label></span>
+                                <span class="col-md-9"> <input type="password" name="password" id="password"
+                                        class="form-control" required></span>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-3"> <label for="repassword" class="text-muted">repassword
+                                    </label></span>
+                                <span class="col-md-9"> <input type="password" name="repassword" id="repassword"
+                                        class="form-control" required></span>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="reset" class="text-uppercase btn btn-danger" value="Temizle">
+                                <input type="submit" class="text-uppercase btn btn-primary" value="Gönder">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- header start -->
+    <header>
+        <div class="jumbotron text-white bg-dark">
+            <div class="container">
+                <h1 class="display-1  text-center text-uppercase" id="header_h1" name="header_h1">Blog PAge
+                </h1>
+                <p id="header_p" name="header_p" class="text-capitalize 
+                text-center">Blog Sayfasıza Hoş geldiniz</p>
+            </div>
+        </div>
+    </header>
+    <!-- header start -->
+
+    <!-- main start -->
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-md-1 mt-5">
+            </div>
+
+            <!-- sol taraf -->
+            <div class="col-md-8 mt-5">
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3>Header alanı</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="img/beach-g78273bab5_1920.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Başlık 1</h5>
+                                <p class="card-text line-clamp10">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus libero nemo pariatur iure sequi iste quia laudantium ut, eum cum est exercitationem molestiae, labore dolores cumque maiores odit deleniti fugiat. Culpa vero a itaque nesciunt incidunt
+                                    aliquid officia earum, sunt magnam corrupti natus accusantium commodi est inventore totam vitae! Quisquam dolorum consectetur veniam magni, quo veritatis porro ipsam. Quidem, est? Fugiat blanditiis sequi nisi? Harum
+                                    fuga impedit, expedita unde consequuntur quisquam. Ea dolore aperiam asperiores ipsam numquam, sunt, recusandae, voluptatibus repellat quam mollitia rem cumque velit ullam at voluptatum magni. Quisquam odit vitae unde
+                                    tempora rem nihil dolore laudantium sequi a, eius reiciendis vero iure soluta, obcaecati ducimus accusantium dolorum asperiores consequatur aperiam eum veniam esse mollitia facilis. Neque, recusandae.
+                                </p>
+                                <button class="btn btn-primary mb-3">Detay ...</button>
+                                <div class="card_tag">
+                                    <a href="#">#html5</a>
+                                    <a href="#">#semantic</a>
+                                    <a href="#">#console</a>
+                                    <a href="#">#css3</a>
+                                    <a href="#">#jquery</a>
+                                    <a href="#">#hide</a>
+                                    <a href="#">#show</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer"> 13 Mart 2022</div>
+                </div>
+
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3>Header alanı</h3>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Başlık 1</h5>
+                                <p class="card-text line-clamp10">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus libero nemo pariatur iure sequi iste quia laudantium ut, eum cum est exercitationem molestiae, labore dolores cumque maiores odit deleniti fugiat. Culpa vero a itaque nesciunt incidunt
+                                    aliquid officia earum, sunt magnam corrupti natus accusantium commodi est inventore totam vitae! Quisquam dolorum consectetur veniam magni, quo veritatis porro ipsam. Quidem, est? Fugiat blanditiis sequi nisi? Harum
+                                    fuga impedit, expedita unde consequuntur quisquam. Ea dolore aperiam asperiores ipsam numquam, sunt, recusandae, voluptatibus repellat quam mollitia rem cumque velit ullam at voluptatum magni. Quisquam odit vitae unde
+                                    tempora rem nihil dolore laudantium sequi a, eius reiciendis vero iure soluta, obcaecati ducimus accusantium dolorum asperiores consequatur aperiam eum veniam esse mollitia facilis. Neque, recusandae.
+                                </p>
+                                <button class="btn btn-primary">Detay ...</button>
+                                <div class="card_tag">
+                                    <a href="#">#html5</a>
+                                    <a href="#">#semantic</a>
+                                    <a href="#">#console</a>
+                                    <a href="#">#css3</a>
+                                    <a href="#">#jquery</a>
+                                    <a href="#">#hide</a>
+                                    <a href="#">#show</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <img src="img/beach-g78273bab5_1920.jpg" alt="" class="card-img-top">
+                        </div>
+                    </div>
+
+                    <div class="card-footer"> 13 Mart 2022</div>
+                </div>
+
+
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3>Header alanı</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="img/beach-g78273bab5_1920.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Başlık 1</h5>
+                                <p class="card-text line-clamp10">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus libero nemo pariatur iure sequi iste quia laudantium ut, eum cum est exercitationem molestiae, labore dolores cumque maiores odit deleniti fugiat. Culpa vero a itaque nesciunt incidunt
+                                    aliquid officia earum, sunt magnam corrupti natus accusantium commodi est inventore totam vitae! Quisquam dolorum consectetur veniam magni, quo veritatis porro ipsam. Quidem, est? Fugiat blanditiis sequi nisi? Harum
+                                    fuga impedit, expedita unde consequuntur quisquam. Ea dolore aperiam asperiores ipsam numquam, sunt, recusandae, voluptatibus repellat quam mollitia rem cumque velit ullam at voluptatum magni. Quisquam odit vitae unde
+                                    tempora rem nihil dolore laudantium sequi a, eius reiciendis vero iure soluta, obcaecati ducimus accusantium dolorum asperiores consequatur aperiam eum veniam esse mollitia facilis. Neque, recusandae.
+                                </p>
+                                <button class="btn btn-primary">Detay ...</button>
+                                <div class="card_tag">
+                                    <a href="#">#html5</a>
+                                    <a href="#">#semantic</a>
+                                    <a href="#">#console</a>
+                                    <a href="#">#css3</a>
+                                    <a href="#">#jquery</a>
+                                    <a href="#">#hide</a>
+                                    <a href="#">#show</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer"> 13 Mart 2022</div>
+                </div>
+
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3>Header alanı</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="img/beach-g78273bab5_1920.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Başlık 1</h5>
+                                <p class="card-text line-clamp10">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus libero nemo pariatur iure sequi iste quia laudantium ut, eum cum est exercitationem molestiae, labore dolores cumque maiores odit deleniti fugiat. Culpa vero a itaque nesciunt incidunt
+                                    aliquid officia earum, sunt magnam corrupti natus accusantium commodi est inventore totam vitae! Quisquam dolorum consectetur veniam magni, quo veritatis porro ipsam. Quidem, est? Fugiat blanditiis sequi nisi? Harum
+                                    fuga impedit, expedita unde consequuntur quisquam. Ea dolore aperiam asperiores ipsam numquam, sunt, recusandae, voluptatibus repellat quam mollitia rem cumque velit ullam at voluptatum magni. Quisquam odit vitae unde
+                                    tempora rem nihil dolore laudantium sequi a, eius reiciendis vero iure soluta, obcaecati ducimus accusantium dolorum asperiores consequatur aperiam eum veniam esse mollitia facilis. Neque, recusandae.
+                                </p>
+                                <button class="btn btn-primary">Detay ...</button>
+                                <div class="card_tag">
+                                    <a href="#">#html5</a>
+                                    <a href="#">#semantic</a>
+                                    <a href="#">#console</a>
+                                    <a href="#">#css3</a>
+                                    <a href="#">#jquery</a>
+                                    <a href="#">#hide</a>
+                                    <a href="#">#show</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer"> 13 Mart 2022</div>
+                </div>
+
+                <div class="card mb-5">
+                    <div class="card-header">
+                        <h3>Header alanı</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="img/beach-g78273bab5_1920.jpg" alt="" class="card-img-top">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Başlık 1</h5>
+                                <p class="card-text line-clamp10">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus libero nemo pariatur iure sequi iste quia laudantium ut, eum cum est exercitationem molestiae, labore dolores cumque maiores odit deleniti fugiat. Culpa vero a itaque nesciunt incidunt
+                                    aliquid officia earum, sunt magnam corrupti natus accusantium commodi est inventore totam vitae! Quisquam dolorum consectetur veniam magni, quo veritatis porro ipsam. Quidem, est? Fugiat blanditiis sequi nisi? Harum
+                                    fuga impedit, expedita unde consequuntur quisquam. Ea dolore aperiam asperiores ipsam numquam, sunt, recusandae, voluptatibus repellat quam mollitia rem cumque velit ullam at voluptatum magni. Quisquam odit vitae unde
+                                    tempora rem nihil dolore laudantium sequi a, eius reiciendis vero iure soluta, obcaecati ducimus accusantium dolorum asperiores consequatur aperiam eum veniam esse mollitia facilis. Neque, recusandae.
+                                </p>
+                                <button class="btn btn-primary">Detay ...</button>
+                                <div class="card_tag">
+                                    <a href="#">#html5</a>
+                                    <a href="#">#semantic</a>
+                                    <a href="#">#console</a>
+                                    <a href="#">#css3</a>
+                                    <a href="#">#jquery</a>
+                                    <a href="#">#hide</a>
+                                    <a href="#">#show</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer"> 13 Mart 2022</div>
+                </div>
+            </div>
+
+            <!-- sağ taraf -->
+            <div class="col-md-3 mt-5">
+                <!-- search -->
+                <div class="card ">
+                    <div class="card-body mb-4 mt-2">
+                        <h4 class="card-title">Search</h4>
+                        <input type="text" class="form-control" placeholder="Search ....">
+                    </div>
+                </div>
+
+                <!-- en çok ziyaret edilenler -->
+                <div class="card mt-5 mb-5">
+                    <div class="card-header">
+                        <h5 class="text-center text-muted text-capitalize">en çok ziyaret edilenler</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul>
+                                        <li>
+                                            <a href="#">html5 Lorem, ipsum dolor.</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">css3 Lorem, ipsum dolor. </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">js Lorem, ipsum dolor.</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Bootstrap Lorem, ipsum dolor.</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Toplam:55
+                    </div>
+                </div>
+
+                <!-- tag cloud -->
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="text-center text-muted text-capitalize">Tag Cloud</h5>
+                    </div>
+                    <div class="card-body tagcloud">
+                        <a href="#" class="card-link">html5</a>
+                        <a href="#" class="card-link">css3</a>
+                        <a href="#" class="card-link">javase</a>
+                        <a href="#" class="card-link">jsp</a>
+                        <a href="#" class="card-link">jsf</a>
+                        <a href="#" class="card-link">servlet</a>
+                        <a href="#" class="card-link">spring boot</a>
+                        <a href="#" class="card-link">spring data</a>
+                        <a href="#" class="card-link">spring security</a>
+                        <a href="#" class="card-link">spring data</a>
+                        <a href="#" class="card-link">html5</a>
+                        <a href="#" class="card-link">css3</a>
+                        <a href="#" class="card-link">javase</a>
+                        <a href="#" class="card-link">jsp</a>
+                        <a href="#" class="card-link">jsf</a>
+                        <a href="#" class="card-link">servlet</a>
+                        <a href="#" class="card-link">spring boot</a>
+                        <a href="#" class="card-link">spring data</a>
+                        <a href="#" class="card-link">spring security</a>
+                        <a href="#" class="card-link">spring data</a>
+                    </div>
+                </div>
+
+                <!-- image galery -->
+                <div class="card mt-5">
+                    <div class="card-header">
+                        <h5 class="text-center text-muted text-capitalize">Resim Galerisi</h5>
+                    </div>
+
+                    <div id="carouselId" class="carousel slide image_galery" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img src="img/beach-g78273bab5_1920.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/seashells-g57d230491_1920.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/beach-gb20ac2aa8_1920.jpg" alt="Third slide">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+    </main>
+    <!-- main start -->
+
+
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-3
+                border border-primary ">
+                    <address>
+                        Written by <a href="mailto:deneme@example.com">Jon Doe</a>.<br>
+                        Visit us at:<br>
+                        <br>
+                        Turkey<br>
+
+                    </address>
+
+                    <ul>
+                        <li>
+                            <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md-6 mt-3 
+                border border-warning "></div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- footer start -->
+
+    <!-- ends codes -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

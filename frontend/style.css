@@ -1,0 +1,150 @@
+/* 
+project name: blog 
+project date: 13 mart 2022
+project author: Hamit Mızrak
+project version: 1.0
+*/
+
+
+/* all project css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+.f10 {
+    font-size: 0.5rem;
+}
+
+.f20 {
+    font-size: 1rem;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    background: #e4eaf3!important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    opacity: .9;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.line-clamp1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp10 {
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+/* header */
+
+header .jumbotron {
+    background-image: url(img/beach-g78273bab5_1920.jpg);
+    background-size: cover;
+    background-position: 25% 50%;
+    height: 40rem;
+    z-index: -1;
+    opacity: .9;
+    padding-top: 15rem;
+}
+
+#header_h1,
+#header_p {
+    color: black;
+    background: rgba(155, 123, 228, 0.133);
+}
+
+
+/* main */
+
+.card-text {
+    text-align: justify;
+}
+
+.card img {
+    height: 25rem;
+}
+
+.card_tag a {
+    background-color: chartreuse;
+    color: black;
+    border-radius: .7rem;
+    padding: .1rem;
+    margin-top: 2rem;
+}
+
+.tagcloud a {
+    border: 1px solid black;
+    padding: 1px auto;
+    margin: 1px auto;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, .2);
+    background: blueviolet;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.tagcloud a:hover {
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, .2);
+    background: white;
+    color: blueviolet;
+}
+
+.image_galery img {
+    height: 200px;
+    width: 100%;
+}
+
+
+/* footer*/
+
+footer {
+    min-height: 21rem;
+    width: auto;
+    background: black;
+    color: white;
+}

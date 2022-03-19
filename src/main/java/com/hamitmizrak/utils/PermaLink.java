@@ -19,5 +19,7 @@ public class PermaLink{
 //    google font              : https://fonts.google.com/
     // deneme
 
+    //https://www.w3schools.com/js/
+
 }
 

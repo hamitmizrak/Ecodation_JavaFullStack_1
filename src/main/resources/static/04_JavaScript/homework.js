@@ -14,3 +14,15 @@
 
 //Kullanıcıdan aldığımız kelime(Hamit Mızrak) maskeleme yapalım ?
 //H**** M*****
+
+//Diziler ()=>{}
+// Kullanıcıdan aldığımız sayı kadar random sayı oluştursun bunuda Diziye atasın 
+// Soru 1
+// a1-) Bu sayılar arasındaki en büyük sayıyı bulsun
+// a2-) Bu sayılar arasındaki en büyük sayıyı bulsun ve bunun karekököünü alsın
+// a3-) Bu sayılar arasındaki en küçük sayıyı bulsun 
+// a4-) en küçüğünün karesini alan function
+// a4-) Bu sayılar toplamını yapsın (sum)
+// a5-) bu sayılarda tek olanları başka bir diziye atayalım ve kaç tane tek olduğunu bulalım
+// a6-) bu sayılarda çift olanları başka bir diziye atayalım ve kaç tane çift olduğunu bulalım.
+

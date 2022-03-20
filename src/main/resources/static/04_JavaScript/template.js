@@ -183,7 +183,7 @@
 
 //////////////////////////////////////////////////////////
 //METINSEL
-// let metinsel="secret Html5 Css3 js Html5  ";
+let metinsel="secret Html5 Css3 js Html5  ";
 
 // //kelime harf sayısını verir
 // //length: harf sayısını verir unutmayalım () yazmıyoruz.
@@ -219,6 +219,8 @@
 // //replace: değiştirmek için kullanıyoruz
 // //replace(eskisi,yenisi)
 // console.log(metinsel.replace(metinsel,"asd"))
+// let kelime=metinsel.split("*");
+// alert("data:  "+kelime);
 
 /////////////////////////////////////////////
 // try {
@@ -471,7 +473,6 @@
 //H**** M*****
 //Htm5-css3-js-jquery
 //////////////////////////////////////////////////////////////////////////////////
-
 let dizi=[66,"İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
 //push()     ==>sona 1 eleman eklemek
 //unshift()  ==>baştan 1 eleman eklemek
@@ -481,6 +482,8 @@ let dizi=[66,"İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
 //of(eleman) ==>döngü(eleman)
 //delete     ==>eleman silmek
 //concat     ==>sona String düzeyde eklemek
+//join     ==>Her bir elamanın sonua eklmek 
+//toString() ==> Dizideki elemanları String'e çevirir
 
 //Diziler: elemaları bir bütün olarak saklamak ve kullanmak için kullanıyoruz.
 //diziler: sıfır(indisinde) başlar
@@ -543,3 +546,41 @@ console.log(dizi);
 /////////////////////////////////////
 //reverse: elemanları tersine çevirir
 // alert(dizi.reverse())
+
+/////////////////////////////////////
+//concat(): sadece son eleman eklemek
+//join(): Her bir elemanının sona eklemek
+// alert(dizi.concat("* "))
+// alert(dizi.join(".eco "))
+
+/////////////////////////////////////
+//toString() ==> Dizideki elemanları String'e çevirir
+// alert(dizi.toString());
+
+
+///////////////////////////////////////////////////////////////////////
+//Object
+var person={
+  adi:"Hamit",
+  soyadi:"Mızrak",
+  meslek:true,
+  ilPlaka:44,
+  java:["Java se","Java ee","Spring Framework"]
+};
+console.log(person)
+console.log( isGrater(person.java[0].length)   )
+
+
+
+//1.Function
+function isGrater(number){
+let result= (number>10) ? "büyük":"küçük";
+console.log(result);
+}
+
+//2.Function : anonymous function
+
+
+//3.function :arrow function
+
+//4.function: Immedia Function

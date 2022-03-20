@@ -2,17 +2,17 @@
 /* multi line comment*/
 
 // alert("Merhabalar Alert");
-// //window: herşeyin atası
+// window: herşeyin tepesindeki object
 // window.alert("Merhabalar Window alert")
 
-// //document: o sayfa demektir.
+// document: o sayfa demektir.
 // document.write("Merhabalar DW")
 
 // Developerler için yapılan değişikliği kodlayıcı gözleminden görmek
 // console.log("Merhabalar Console log")
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 //statement
-//var: dynamics variable
+// var: dynamics variable
 // var sayi=44;
 // console.log(sayi);
 
@@ -102,12 +102,15 @@
 // alert("sonuc ${''}")
 
 //////////////////////////////////////////////////////////////
-// // NaN=Not A Number
+// NaN=Not A Number
 // console.log(16/"asd")
 
-// // Infinity : sonsuz
+// Infinity : sonsuz
 // var sayi=3/0;
 // console.log(sayi);
+
+// Bu sayı değil mi : true dönüyorsa bu sayı değildir.
+// console.log(isNaN(sayi5));
 
 /////////////////////////////////////////////////////////
 //Math
@@ -139,9 +142,11 @@
 //////////////////////////////////////////////////////////
 
 //SAYISAL
+//tamsayı
 // let sayi1=44;
 // console.log(sayi1);
 
+//virgüllü sayı
 // let sayi2=44.23;
 // console.log(sayi2);
 
@@ -191,7 +196,7 @@
 // console.log(metinsel.toLowerCase());
 
 // //vermiş olduğumuz indise karşılık harfi bana döner
-// //charAt(): 0(sıfır) indistenn başlar
+// //charAt(): 0(sıfır) indisten başlar
 // //alternative: charCodeAt()
 // console.log(metinsel.charAt(10));
 
@@ -235,64 +240,64 @@
 //proje  hızlı sağlamak
 
 // //function-1.1
-function hesaplama() {
-  let x1, x2, x3
-  x1 = 10
-  x2 = 20
-  x3 = x1 + x2
-  console.log(x3)
-}
+// function hesaplama() {
+//   let x1, x2, x3
+//   x1 = 10
+//   x2 = 20
+//   x3 = x1 + x2
+//   console.log(x3)
+// }
 //hesaplama();
 
 //function-1.2 ==> Parametreli
-function hesaplama2(x1, x2) {
-  let x3
-  x3 = x1 + x2
-  console.log(x3)
-}
+// function hesaplama2(x1, x2) {
+//   let x3
+//   x3 = x1 + x2
+//   console.log(x3)
+// }
 //hesaplama2(10,20);
 
 //function-1.3 ==> return
-function hesaplama2(x1, x2) {
-  return x1 + x2
-}
+// function hesaplama2(x1, x2) {
+//   return x1 + x2
+// }
 //değişkeni başka bir hesaplamada kullanmak istersek
-let cay = hesaplama2(10, 20)
+// let cay = hesaplama2(10, 20);
 //console.log(cay)
 
 // function-2
 // normal
-function ekrandaYaz1() {
-  console.log('Normal Ekranda göster')
-}
+// function ekrandaYaz1() {
+//   console.log('Normal Ekranda göster')
+// }
 //ekrandaYaz1();
 
 // değişkenli function
-let isimsiz1 = function ekrandaYaz2() {
-  console.log('değişkenli function')
-}
+// let isimsiz1 = function ekrandaYaz2() {
+//   console.log('değişkenli function')
+// }
 //isimsiz1();
 
 //anonymous function : isimsiz fonksiyon
-let isimsiz2 = function () {
-  console.log('anonymous function')
-}
+// let isimsiz2 = function () {
+//   console.log('anonymous function')
+// }
 //isimsiz2();
 
 //function-3
 //arrow function : ok fonksiyon
 // ()=>{}
-let arrow = () => {
-  console.log('arrow function ')
-}
+// let arrow = () => {
+//   console.log('arrow function ')
+// }
 //arrow();
 
 //function-4
 //Immedia Function: fonksiyonu çağırmadan kullanıyoruz.
 // ()()
-;(function ekrandaYaz2() {
-  console.log('değişkenli function')
-})()
+// (function ekrandaYaz2() {
+//   console.log('değişkenli function')
+// })()
 
 /////////////////////////////////////////////
 //isim ve soyisimi console çıktısı gösterecek
@@ -375,7 +380,7 @@ let arrow = () => {
 
 //////////////////////////////////////////////////////
 //Loop
-console.log(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
+// console.log(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12);
 
 //FOR
 //Başlangıç: let i=1
@@ -393,12 +398,15 @@ console.log(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
 //artırmak i++
 //artırmak i=i+1
 //artırmak i+=1
+// while(true){
+// }
 
 // let k=1;
 // while(k<=10){
 //     console.log(k+". sayı")
 //     k++;
 // }
+
 
 //do-while
 // let m=1;
@@ -407,57 +415,62 @@ console.log(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
 //     m++;
 // } while (m==1);
 
-console.log(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
+// console.log(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
 //toplamada etkisiz eleman 0
 
-let sum = 0 //başlangıç
-for (let index = 1; index <= 100; index++) {
-  sum = sum + index
-}
-console.log(sum)
+// let sum = 0 //başlangıç
+// for (let index = 1; index <= 100; index++) {
+//   sum = sum + index
+// }
+// console.log(sum)
 
 // kullanıcıdan alına bir sayıyı negatif mi pozitif mi? arrow function
-let isNegative = () => {
-  let number = Number(prompt('Lütfen bir sayı giriniz'))
-  let result = number < 0 ? 'negatiftir' : 'pozitiftir'
-  console.log(result)
-}
+// let isNegative = () => {
+//   let number = Number(prompt('Lütfen bir sayı giriniz'))
+//   let result = number < 0 ? 'negatiftir' : 'pozitiftir'
+//   console.log(result)
+// }
 //isNegative();
 
 //continue:Es geçer
 //break:döngünün çalışmasını engeller(durdurur)
 //return:metodun çalışmasını engeller(durdurur)
 
-let number5 = () => {
-  let sum = 0 //başlangıç
-  for (let index = 1; index <= 10; index++) {
-    if(index>=8) break;
-      if(index==4){
-          continue; 
-      }
-    sum = sum + index
-  }
-  console.log("sonuç: "+sum)
-}
-number5();
+// let number5 = () => {
+//   let sum = 0 //başlangıç
+//   for (let index = 1; index <= 10; index++) {
+//     if(index>=8) break;
+//       if(index==4){
+//           continue; 
+//       }
+//     sum = sum + index
+//   }
+//   console.log("sonuç: "+sum)
+// }
+// number5();
 
 
 //S-1)
 //a-1) 1-10 arasındaki tek çift sayılar
 //a-2) 1-10 arasındaki 4 dahil olmayacak ==> continue
 //a-3-) 1-100 arasında 5'e bölünebilen kaç tane sayı vardır ve bu sayılar?
-let isEven = () => {
-  let number = Number(prompt('Lütfen bir sayı giriniz'))
-  let result = number % 2 == 0 ? 'çifttir' : 'tektir'
-  console.log(result)
-}
-isEven()
+// let isEven = () => {
+//   let number = Number(prompt('Lütfen bir sayı giriniz'))
+//   let result = number % 2 == 0 ? 'çifttir' : 'tektir'
+//   console.log(result)
+// }
+// isEven()
 
-//dereceyi fahrenhayta çeviren function yazalım
-//Mutlak değer hesaplayan function yazalım ? Math.abs()
+//dereceyi fahrenhayta çeviren function yazalım ?
+//Mutlak değer hesaplayan function yazalım ? Math.abs() ?
 //üslü sayı alan fonksiyon yazalım Math.pow()
-//v.k.i
+//v.k.i E B
 //Kullanıcıdan aldığımız adımız ve soyadımızı string metotlarını kullanacağız.
 
-//Kullanıcıdan aldığımız kelime(Hamit Mızrak) maskeleme yapalım ?
+//Kullanıcıdan aldığımız kelime ismi (Hamit) soyismi (Mızrak) maskeleme yapalım ?
 //H**** M*****
+//Htm5-css3-js-jquery
+//////////////////////////////////////////////////////////////////////////////////
+// Diziler
+let dizi=[];
+console.log(dizi);

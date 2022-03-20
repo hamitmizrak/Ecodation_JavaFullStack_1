@@ -599,9 +599,9 @@
 // }(sonuc))
 
 
-//Debug nedir ?
-//Debug nasıl atılır ?
-//Ctrl+Shift+D
+// Debug nedir ?
+// Debug nasıl atılır ?
+// Ctrl+Shift+D
 // var sayi1=10;
 // var sayi2=20;
 // var sonuc=sayi1+sayi2;

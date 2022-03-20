@@ -472,7 +472,13 @@
 //Htm5-css3-js-jquery
 //////////////////////////////////////////////////////////////////////////////////
 
-let dizi=["İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
+let dizi=[66,"İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
+//push()
+//unshift()
+//pop()
+//shift()
+//in
+//of
 
 //Diziler: elemaları bir bütün olarak saklamak ve kullanmak için kullanıyoruz.
 //diziler: sıfır(indisinde) başlar
@@ -502,13 +508,27 @@ let dizi=["İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
 //   console.log(dizi[i]);
 // }
 
-//in: indisi verir
-for(temp in dizi ){
+//in: indisi(key) verir
+// for(temp in dizi ){
+//   console.log(temp)
+// }
+// console.log("*****************************")
+
+// for(temp in dizi ){
+//   console.log(temp+" "+ dizi[temp] );
+// }
+
+///////
+//of: value(değeri) verir
+// for(temp of dizi ){
+//   console.log(temp)
+// }
+
+console.log(dizi);
+////
+//delete: dizi elemanı silmek için kullanıyoruz.
+delete dizi[0];
+
+for(temp of dizi){
   console.log(temp)
 }
-console.log("*****************************")
-
-for(temp in dizi ){
-  console.log(temp+" "+ dizi[temp] );
-}
-

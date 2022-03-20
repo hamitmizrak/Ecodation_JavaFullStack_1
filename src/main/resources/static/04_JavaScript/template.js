@@ -471,9 +471,12 @@
 //H**** M*****
 //Htm5-css3-js-jquery
 //////////////////////////////////////////////////////////////////////////////////
-// Diziler: elemaları bir bütün olarak saklamak ve kullanmak için kullanıyoruz.
+
+let dizi=["İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
+
+//Diziler: elemaları bir bütün olarak saklamak ve kullanmak için kullanıyoruz.
 //diziler: sıfır(indisinde) başlar
-let dizi=["1",2,3,4,5,6,7,8,"Malatya"];
+
 // console.log(dizi);
 // console.log(dizi[8].concat(" -sona eklenenen"));
 // console.log(Number(dizi[0]));
@@ -481,19 +484,31 @@ let dizi=["1",2,3,4,5,6,7,8,"Malatya"];
 //ELEMAN EKLEMEK
 //push(): sona eleman eklemek.
 //unshift(): başa eleman eklemek
-dizi.push("Battalgazi");
-dizi.unshift("Yeşilyurt");
-for(let i=0; i<dizi.length; i++){
-  console.log(dizi[i]);
-}
-console.log("*************************************")
+// dizi.push("Battalgazi");
+// dizi.unshift("Yeşilyurt");
+// for(let i=0; i<dizi.length; i++){
+//   console.log(dizi[i]);
+// }
+// console.log("*************************************")
 
 //ELEMAN ÇIKARMAK
 //pop():sondan eleman çıkarmak.
 //shift():baştan eleman çıkarmak
-dizi.pop();
-dizi.shift()
-for(let i=0; i<dizi.length; i++){
-  console.log(dizi[i]);
+// dizi.pop();
+// dizi.shift()
+
+//iterative for
+// for(let i=0; i<dizi.length; i++){
+//   console.log(dizi[i]);
+// }
+
+//in: indisi verir
+for(temp in dizi ){
+  console.log(temp)
+}
+console.log("*****************************")
+
+for(temp in dizi ){
+  console.log(temp+" "+ dizi[temp] );
 }
 

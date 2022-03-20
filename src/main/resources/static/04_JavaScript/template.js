@@ -473,21 +473,24 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 let dizi=[66,"İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
-//push():sona 1 eleman eklemek
-//unshift():baştan 1 eleman eklemek
-//pop():sondan 1 eleman çıkar
-//shift():baştan 1 eleman çıkar
-//in döngü(indis,eleman)
-//of(eleman)
-//delete(silmek)
+//push()     ==>sona 1 eleman eklemek
+//unshift()  ==>baştan 1 eleman eklemek
+//pop()      ==>sondan 1 eleman çıkar
+//shift()    ==>baştan 1 eleman çıkar
+//in         ==>döngü(indis,eleman)
+//of(eleman) ==>döngü(eleman)
+//delete     ==>eleman silmek
+//concat     ==>sona String düzeyde eklemek
 
 //Diziler: elemaları bir bütün olarak saklamak ve kullanmak için kullanıyoruz.
 //diziler: sıfır(indisinde) başlar
 
+/////////////////////////////////////
 // console.log(dizi);
 // console.log(dizi[8].concat(" -sona eklenenen"));
 // console.log(Number(dizi[0]));
 
+/////////////////////////////////////
 //ELEMAN EKLEMEK
 //push(): sona eleman eklemek.
 //unshift(): başa eleman eklemek
@@ -498,17 +501,20 @@ let dizi=[66,"İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
 // }
 // console.log("*************************************")
 
+/////////////////////////////////////
 //ELEMAN ÇIKARMAK
 //pop():sondan eleman çıkarmak.
 //shift():baştan eleman çıkarmak
 // dizi.pop();
 // dizi.shift()
 
+/////////////////////////////////////
 //iterative for
 // for(let i=0; i<dizi.length; i++){
 //   console.log(dizi[i]);
 // }
 
+/////////////////////////////////////
 //in: indisi(key) verir
 // for(temp in dizi ){
 //   console.log(temp)
@@ -519,14 +525,14 @@ let dizi=[66,"İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
 //   console.log(temp+" "+ dizi[temp] );
 // }
 
-///////
+/////////////////////////////////////
 //of: value(değeri) verir
 // for(temp of dizi ){
 //   console.log(temp)
 // }
 
 console.log(dizi);
-////
+/////////////////////////////////////
 //delete: dizi elemanı silmek için kullanıyoruz.
 // delete dizi[0];
 
@@ -534,5 +540,6 @@ console.log(dizi);
 //   console.log(temp)
 // }
 
+/////////////////////////////////////
 //reverse: elemanları tersine çevirir
-alert(dizi.reverse())
+// alert(dizi.reverse())

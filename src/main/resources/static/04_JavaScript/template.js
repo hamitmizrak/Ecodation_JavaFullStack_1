@@ -183,7 +183,7 @@
 
 //////////////////////////////////////////////////////////
 //METINSEL
-let metinsel="secret Html5 Css3 js Html5  ";
+// let metinsel="secret Html5 Css3 js Html5  ";
 
 // //kelime harf sayısını verir
 // //length: harf sayısını verir unutmayalım () yazmıyoruz.
@@ -473,7 +473,7 @@ let metinsel="secret Html5 Css3 js Html5  ";
 //H**** M*****
 //Htm5-css3-js-jquery
 //////////////////////////////////////////////////////////////////////////////////
-let dizi=[66,"İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
+//let dizi=[66,"İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
 //push()     ==>sona 1 eleman eklemek
 //unshift()  ==>baştan 1 eleman eklemek
 //pop()      ==>sondan 1 eleman çıkar
@@ -534,7 +534,7 @@ let dizi=[66,"İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
 //   console.log(temp)
 // }
 
-console.log(dizi);
+//console.log(dizi);
 /////////////////////////////////////
 //delete: dizi elemanı silmek için kullanıyoruz.
 // delete dizi[0];
@@ -560,39 +560,72 @@ console.log(dizi);
 
 ///////////////////////////////////////////////////////////////////////
 //Object
-var person={
-  adi:"Hamit",
-  soyadi:"Mızrak",
-  meslek:true,
-  ilPlaka:44,
-  java:["Java se","Java ee","Spring Framework"]
-};
-console.log(person)
+// var person={
+//   adi:"Hamit",
+//   soyadi:"Mızrak",
+//   meslek:true,
+//   ilPlaka:44,
+//   java:["Java se","Java ee","Spring Framework"],
+//   insan:{}
+// };
+// console.log(person)
 
 //1.Function
-function isGreater(number){
-let result= (number>10) ? "büyük":"küçük";
-console.log(result);
-}
-console.log( isGreater(person.java[0].length)   )
+// function isGreater(number){
+// let result= (number>10) ? "büyük":"küçük";
+// console.log(result);
+// }
+// console.log( isGreater(person.java[0].length)   )
 
 //2.Function : anonymous function
-let anonymous = function (number){
-  let result= (number>10) ? "büyük":"küçük";
-  console.log(result);
-  }
-  console.log( anonymous(person.java[0].length)   )
+// let anonymous = function (number){
+//   let result= (number>10) ? "büyük":"küçük";
+//   console.log(result);
+//   }
+//   console.log( anonymous(person.java[0].length)   )
 
 //3.function :arrow function
-let arrow = (number)=>{
-  let result= (number>10) ? "büyük":"küçük";
-  console.log(result);
-  }
-  console.log( arrow(person.java[0].length)   )
+// let arrow = (number)=>{
+//   let result= (number>10) ? "büyük":"küçük";
+//   console.log(result);
+//   }
+//   console.log( arrow(person.java[0].length)   )
 
 //4.function: Immedia Function
-var sonuc = person.java[0].length;
-(function(temp){
-  let result= (temp>10) ? "büyük":"küçük";
-  console.log(result);
-}(sonuc))
+// var sonuc = person.java[0].length;
+// (function(temp){
+//   let result= (temp>10) ? "büyük":"küçük";
+//   console.log(result);
+// }(sonuc))
+
+
+//Debug nedir ?
+//Debug nasıl atılır ?
+//Ctrl+Shift+D
+// var sayi1=10;
+// var sayi2=20;
+// var sonuc=sayi1+sayi2;
+// console.log(sonuc);
+
+
+////////////////////////////////////////////
+//Event:
+// function toplama(){
+//   var x1=10;
+//   var x2=20;
+//   alert(x1+x2);
+// }
+
+
+//DOM :
+function domFunction(){
+  //Html 
+  document.getElementById("dom_id").innerHTML="<b>Artık Dom Himayesindesin</b>";
+  //document.getElementById("dom_id").innerText="Artık Dom Himayesindesin";
+  //document.getElementsByTagName("p")[0].innerHTML="<b>Artık Dom Himayesindesin</b>";
+  
+  //css
+  document.getElementById("dom_id").style.fontSize="45px";
+  document.getElementById("dom_id").style.background="red";
+  document.getElementById("dom_id").style.color="white";
+}

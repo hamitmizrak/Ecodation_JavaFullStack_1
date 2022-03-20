@@ -478,12 +478,22 @@ let dizi=["1",2,3,4,5,6,7,8,"Malatya"];
 // console.log(dizi[8].concat(" -sona eklenenen"));
 // console.log(Number(dizi[0]));
 
-//push: sona eklemek.
-//unshift: başa eklemek
+//ELEMAN EKLEMEK
+//push(): sona eleman eklemek.
+//unshift(): başa eleman eklemek
 dizi.push("Battalgazi");
 dizi.unshift("Yeşilyurt");
 for(let i=0; i<dizi.length; i++){
   console.log(dizi[i]);
 }
+console.log("*************************************")
 
+//ELEMAN ÇIKARMAK
+//pop():sondan eleman çıkarmak.
+//shift():baştan eleman çıkarmak
+dizi.pop();
+dizi.shift()
+for(let i=0; i<dizi.length; i++){
+  console.log(dizi[i]);
+}
 

@@ -473,12 +473,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 let dizi=[66,"İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
-//push()
-//unshift()
-//pop()
-//shift()
-//in
-//of
+//push():sona 1 eleman eklemek
+//unshift():baştan 1 eleman eklemek
+//pop():sondan 1 eleman çıkar
+//shift():baştan 1 eleman çıkar
+//in döngü(indis,eleman)
+//of(eleman)
+//delete(silmek)
 
 //Diziler: elemaları bir bütün olarak saklamak ve kullanmak için kullanıyoruz.
 //diziler: sıfır(indisinde) başlar
@@ -527,8 +528,11 @@ let dizi=[66,"İstanbul","Ankara",true,"Nevşehir","Bolu","Malatya"];
 console.log(dizi);
 ////
 //delete: dizi elemanı silmek için kullanıyoruz.
-delete dizi[0];
+// delete dizi[0];
 
-for(temp of dizi){
-  console.log(temp)
-}
+// for(temp of dizi){
+//   console.log(temp)
+// }
+
+//reverse: elemanları tersine çevirir
+alert(dizi.reverse())

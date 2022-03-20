@@ -471,6 +471,19 @@
 //H**** M*****
 //Htm5-css3-js-jquery
 //////////////////////////////////////////////////////////////////////////////////
-// Diziler
-let dizi=[];
-console.log(dizi);
+// Diziler: elemaları bir bütün olarak saklamak ve kullanmak için kullanıyoruz.
+//diziler: sıfır(indisinde) başlar
+let dizi=["1",2,3,4,5,6,7,8,"Malatya"];
+// console.log(dizi);
+// console.log(dizi[8].concat(" -sona eklenenen"));
+// console.log(Number(dizi[0]));
+
+//push: sona eklemek.
+//unshift: başa eklemek
+dizi.push("Battalgazi");
+dizi.unshift("Yeşilyurt");
+for(let i=0; i<dizi.length; i++){
+  console.log(dizi[i]);
+}
+
+

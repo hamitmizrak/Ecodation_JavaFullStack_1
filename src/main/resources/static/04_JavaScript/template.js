@@ -568,19 +568,31 @@ var person={
   java:["Java se","Java ee","Spring Framework"]
 };
 console.log(person)
-console.log( isGrater(person.java[0].length)   )
-
-
 
 //1.Function
-function isGrater(number){
+function isGreater(number){
 let result= (number>10) ? "büyük":"küçük";
 console.log(result);
 }
+console.log( isGreater(person.java[0].length)   )
 
 //2.Function : anonymous function
-
+let anonymous = function (number){
+  let result= (number>10) ? "büyük":"küçük";
+  console.log(result);
+  }
+  console.log( anonymous(person.java[0].length)   )
 
 //3.function :arrow function
+let arrow = (number)=>{
+  let result= (number>10) ? "büyük":"küçük";
+  console.log(result);
+  }
+  console.log( arrow(person.java[0].length)   )
 
 //4.function: Immedia Function
+var sonuc = person.java[0].length;
+(function(temp){
+  let result= (temp>10) ? "büyük":"küçük";
+  console.log(result);
+}(sonuc))

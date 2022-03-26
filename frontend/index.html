@@ -23,6 +23,8 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
+    <!-- external js -->
+    <script src="template.js"></script>
 </head>
 
 <body>
@@ -80,64 +82,63 @@
             </div>
         </div>
     </nav>
-    <!-- navbar end -->
+    <!-- navbar end  -->
 
     <!-- login modal -->
 
     <!-- register modal -->
     <div class="modal fade" id="register">
-        <div class="modal-dialog-centered modal-dialog">
-            <div class="modal-content">
+        <div class="modal-dialog-centered modal-dialog  ">
+            <div class="modal-content bg-dark ">
                 <div class="modal-header">
                     <h5 class="modal-title">Üye Ol</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close y" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h3 class="text-center text-success">Register</h3>
+                    <h3 class="text-center text-success text-uppercase text-white">Üye Kayıt</h3>
                     <div class="container">
-                        <div class="row">
+                        <div class="row ">
                             <!-- adı -->
+                            <form action="#" method="get">
                             <div class="form-group">
-                                <span class="col-md-3"> 
-                                    <label for="name_surname" class="text-muted">AdınızSoyadınız</label>
+                                <span class="col-md-3">
+                                    <label for="name_surname" class="text-white">Adınız Soyadınız</label>
                                 </span>
-                                <span class="col-md-9"> 
-                                    <input type="text" name="name_surname" id="name_surname"
-                                        class="form-control" autofocus>
-                                        <div id="validation_name" style="font-size: 18px;" class="text-danger"></div>
+                                <span class="col-md-9">
+                                    <input type="text" name="name_surname" id="name_surname" class="form-control" autofocus>
+                                    <div id="validation_name" style="font-size: 18px;" class="text-danger"></div>
                                     </span>
                             </div>
                             <!-- email -->
                             <div class="form-group">
-                                <span class="col-md-3"> 
-                                    <label for="email" class="text-muted">email </label>
+                                <span class="col-md-3">
+                                    <label for="email" class="text-white">email </label>
                                 </span>
                                 <span class="col-md-9">
-                                    <input type="email" name="email" id="email" class="form-control">
+                                    <input type="text" name="email" id="email" class="form-control">
                                     <div id="validation_email" style="font-size: 18px;" class="text-danger"></div>
                                 </span>
                             </div>
 
                             <!-- password -->
                             <div class="form-group">
-                                <span class="col-md-3"> 
-                                    <label for="password" class="text-muted">password </label>
+                                <span class="col-md-3">
+                                    <label for="password" class="text-white">password </label>
                                 </span>
-                                <span class="col-md-9"> 
-                                    <input type="password" name="password" id="password" class="form-control"></span>
+                                <span class="col-md-9">
+                                    <input type="text" name="password" id="password" class="form-control"></span>
                                     <div id="validation_password" style="font-size: 18px;" class="text-danger"></div>
                             </div>
 
                             <!-- tel number -->
                             <div class="form-group">
-                                <span class="col-md-3"> 
-                                    <label for="tel_number" class="text-muted">Telefon
+                                <span class="col-md-3">
+                                    <label for="tel_number" class="text-white">Telefon
                                     </label>
                                 </span>
-                                <span class="col-md-9"> 
-                                    <input type="text" name="tel_number" id="tel_number"
-                                        class="form-control">
-                                        <div id="validation_number" style="font-size: 18px;" class="text-danger"></div>
+                                <span class="col-md-9">
+                                    <input type="text" name="tel_number" id="tel_number" class="form-control">
+                                    <div id="validation_number" style="font-size: 18px;" class="text-danger"></div>
                                     </span>
                             </div>
 
@@ -146,6 +147,7 @@
                                 <input type="reset" class="text-uppercase btn btn-danger" value="Temizle">
                                 <input id="btnSubmit" type="submit" class="text-uppercase btn btn-primary" value="Gönder">
                             </div>
+                        </form>
                         </div>
                     </div>
 

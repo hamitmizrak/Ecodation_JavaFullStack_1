@@ -17,9 +17,7 @@ public class PermaLink{
 //    jsonplaceHolder fake api : https://jsonplaceholder.typicode.com/
 //    font-awesome             : https://fontawesome.com/download
 //    google font              : https://fonts.google.com/
-    // deneme
-
-    //https://www.w3schools.com/js/
+//    https://www.w3schools.com/js/
 
 }
 

@@ -71,33 +71,79 @@
 //     //   $('#deneme_id').css('color', 'red').css("font-size")
 //     })
 
+//CSS-2 tane özellik
+// $(function () {
+//     let valueJquery=$('#deneme_id');
+// //   $('#deneme_id').css('color', 'red')
+// // valueJquery.css('color', 'red')
+// //  $('#deneme_id').css('color', 'red').css("font-size","25px");
+// // $('#deneme_id').css({
+// //     // color:"red",
+// //     "color":"red",
+// //     "font-size":"25px",
+// //     "border":"1px solid blue",
+// //     "margin-top":"5px",
+// //     "box-shadow":"1px 1px 4px 1px rgba(5,5,5,.8)"
+// // })
 
-$(function () {
-    let valueJquery=$('#deneme_id');
-//   $('#deneme_id').css('color', 'red')
-// valueJquery.css('color', 'red')
-//  $('#deneme_id').css('color', 'red').css("font-size","25px");
-// $('#deneme_id').css({
+
+// //CSS-3 tane özellik
+// let multipleObject={
 //     // color:"red",
 //     "color":"red",
+//     // fontSize:"25px",
 //     "font-size":"25px",
 //     "border":"1px solid blue",
 //     "margin-top":"5px",
 //     "box-shadow":"1px 1px 4px 1px rgba(5,5,5,.8)"
+// }
+
+// $('#deneme_id').css(multipleObject)
 // })
-let multipleObject={
-    // color:"red",
-    "color":"red",
-    // fontSize:"25px",
-    "font-size":"25px",
-    "border":"1px solid blue",
-    "margin-top":"5px",
-    "box-shadow":"1px 1px 4px 1px rgba(5,5,5,.8)"
-}
 
-$('#deneme_id').css(multipleObject)
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//Html
+$(function(){
+    $("#deneme_id").html("<b><i>jquery html</i></b>");
+    $("#deneme_id2").text("<b><i>jquery html</i></b>");
+});
 
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//value
+$(function (){
+    $("#adi").val();
 })
 
 
+//Method Effect
+//hide:gizlemek show:göstermek
+//fade,slide,stop,animate
+$("p").hide("fast");
+$("p").hide("slow");
+$("p").hide(3000);
+$("p").hide(2000,function () {
+    alert("Gizlendi")
+});
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//click,dblclick,mouseUp,mouseDown
+$(function (){
+    function gonder(){
+
+
+    }
+   
+})
+
+//++++++++++++++++++++++++++++++++++++++++++
 //addClass(),removeClass(),toggleClass()
+
+//+++++++++++++++++++++++++++++++++++++++++++
+//attr():
+//removeAttr()
+// $(function () {
+//         $("#img_id").attr("width","50%").attr("height","100px")
+//     })
+
+//effect: hide,show,

@@ -7,6 +7,10 @@ public class HomeWork {
     JVM nedir ?
     JAR nedir  ? WAR nedir ?
     class nedir ? package nedir ?
+    unicode character nedir ?
+    Ascii character nedir ?
+    Heap Memory , Stack Memory nedir ?
+    Runtime (Çalışma zamanı) , compile(derleme zamanı)
      */
 
 

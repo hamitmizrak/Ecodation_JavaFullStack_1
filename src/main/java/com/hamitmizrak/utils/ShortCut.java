@@ -9,4 +9,6 @@ public class ShortCut {
 //    Ctrl+/  yorumlama aç kapat
 //    formatter Ctrl+Alt+L
 
+
+
 }

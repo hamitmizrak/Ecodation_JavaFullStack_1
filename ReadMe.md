@@ -1,13 +1,13 @@
-# Getting Started
-
-### Reference Documentation
-Gereksinimler
+# Ecodation Java Full Stack Developer -1 (1 Şubat 2022)
+* [GitHub](https://github.com/hamitmizrak/Ecodation_JavaFullStack_1)
+* 
+### Gereksinimler
 Java 11
 intellij idea Ultimate 
 Visual Studio Code
 Node js
 
-### Visual Stuidio codes
+### Visual Studio codes
 Extensisons
 - Browser preview
 - Auto Close tag
@@ -29,6 +29,7 @@ Extensisons
 
 
 ### Tecnology
+#### FrontEnd
 - Html5
 - Css3
 - responsive design
@@ -37,6 +38,7 @@ Extensisons
 - Bootstrap
 - react
 
+#### BackEnd
 * javase
 * jdbc crud native
 * hibernate
@@ -45,10 +47,6 @@ Extensisons
 * spring data
 * spring rest
 * spring security
-
-
-BackEnd
-
 
 
 dependency
@@ -71,7 +69,6 @@ Spring Boot Actuator
 
 
 
-
 FrondEnd
 -----------------------------------------------------------------------
 
@@ -91,12 +88,4 @@ npm install axios
 npm install bootstrap --save
 npm install node-sass --save
 
-
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-
-### Guides
-
-The following guides illustrate how to use some features concretely:
 

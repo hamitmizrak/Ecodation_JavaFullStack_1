@@ -87,7 +87,7 @@
     <!-- login modal -->
 
     <!-- register modal -->
-    <div class="modal fade" id="register">
+    <div class="modal fade" id="register"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog-centered modal-dialog  ">
             <div class="modal-content bg-dark ">
                 <div class="modal-header">
@@ -99,8 +99,8 @@
                     <div class="container">
                         <div class="row ">
                             <!-- adı -->
-                            <form action="#" method="get">
-                            <div class="form-group">
+                            <form action="" method="get">
+                            <div class="form-group mt-3">
                                 <span class="col-md-3">
                                     <label for="name_surname" class="text-white">Adınız Soyadınız</label>
                                 </span>
@@ -110,7 +110,7 @@
                                     </span>
                             </div>
                             <!-- email -->
-                            <div class="form-group">
+                            <div class="form-group mt-3">
                                 <span class="col-md-3">
                                     <label for="email" class="text-white">email </label>
                                 </span>
@@ -121,7 +121,7 @@
                             </div>
 
                             <!-- password -->
-                            <div class="form-group">
+                            <div class="form-group mt-3">
                                 <span class="col-md-3">
                                     <label for="password" class="text-white">password </label>
                                 </span>
@@ -131,12 +131,12 @@
                             </div>
 
                             <!-- tel number -->
-                            <div class="form-group">
+                            <div class="form-group mt-3">
                                 <span class="col-md-3">
                                     <label for="tel_number" class="text-white">Telefon
                                     </label>
                                 </span>
-                                <span class="col-md-9">
+                                <span class="col-md-9 mt-3">
                                     <input type="text" name="tel_number" id="tel_number" class="form-control" required>
                                     <div id="validation_number" style="font-size: 18px;" class="text-danger"></div>
                                     </span>
@@ -145,6 +145,7 @@
                             <!-- reset,submit button -->
                             <div class="form-group mt-3">
                                 <input type="reset" class="text-uppercase btn btn-danger" value="Temizle">
+                                <!-- onclick="this.form.submit();this.disabled = true;"  -->
                                 <input id="btnSubmit" type="submit" class="text-uppercase btn btn-primary" value="Gönder">
                             </div>
                         </form>

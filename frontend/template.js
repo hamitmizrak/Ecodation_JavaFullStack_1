@@ -32,25 +32,36 @@ $(function () {
     //NAME SURNAME
     if (nameInput == '') {
       $(validationName).html('Adı veya Soyadı boş geçilemez ...');
+    }else if(nameInput != ''){
+        $(validationName).html('');
     }
 
      //PASSWORD
      if (passwordInput == '') {
         $(validationPassword).html('Şifre Boş geçilemez ...');
-      }
+      }else if(passwordInput != ''){
+        $(validationPassword).html('');
+    }
 
     //EMAİL
     if (emailInput == '') {
       $(validationEmail).html('Email boş geçilemez ...');
     } else if (validateEmail(emailInput)==false) {
       $(validationEmail).html('Email uygun formatta yazmadınız ...');
+    } 
+  //   else if(emailInput.length<30){
+  //     $(validationEmail).html('Email 30 karakterden küçük olamaz ...');
+  // }
+     else {
+        $(validationEmail).html('');
     }
 
     //TEL NUMBER
     if (telNumberInput == '') {
-      $(validationNumber).html('Telefon numarası boş geçilemez ...')
+      $(validationNumber).html('Telefon numarası boş geçilemez ...');
+      
     } else if (validatePhone(validationNumber)==false) {
-      $(validationNumber).html('Telefon numarası uygun formatta yazmadınız ...');
+        $(validationNumber).html("Sayı girmelisiniz veya 'Telefon numarası uygun formatta yazmadınız");
     }
 
 

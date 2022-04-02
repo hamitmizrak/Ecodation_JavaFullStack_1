@@ -85,6 +85,11 @@ public class _03_String {
         //Büyük küçük harfe bakmaksızın eşit mi değil mi
         System.out.println("iki farklı kelime eşit mi? " + data1.equalsIgnoreCase(data2));
 
+        System.out.println("\n**********************************");
         //String ==> split Dizi konusudur.
+        String [] array=kelime.split(" ");
+        for(String temp :array ){
+            System.out.println(temp.toUpperCase()+" length: "+temp.length());
+        }
     }
 }

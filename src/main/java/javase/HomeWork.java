@@ -14,7 +14,6 @@ public class HomeWork {
      */
 
 
-
     //////////////////////////////////////////////////////////////
     //MATH
     // //Kullanıcıdan alınan 2 sayı için; Scanner
@@ -29,4 +28,5 @@ public class HomeWork {
     //Random Math , Random object nedir ?
 
     //cast: valueOf ==>toString veya parseInt
+    //Stringbuilder ile StringBuffer arasındaki farklar ?
 }

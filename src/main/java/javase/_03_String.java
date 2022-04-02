@@ -91,5 +91,6 @@ public class _03_String {
         for(String temp :array ){
             System.out.println(temp.toUpperCase()+" length: "+temp.length());
         }
+
     }
 }

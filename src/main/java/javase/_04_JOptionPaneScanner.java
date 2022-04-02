@@ -20,8 +20,20 @@ public class _04_JOptionPaneScanner {
 //        System.out.println("diğer");
 
 //        System.out.println("*********");
-        System.out.println("Lütfen bir sayı giriniz");
-        int sayi=klavye.nextInt();
-        System.out.println(sayi*sayi);
+//        System.out.println("Lütfen bir sayı giriniz");
+//        int sayi=klavye.nextInt();
+//        System.out.println(sayi*sayi);
+
+        //NOT: unutma değer gerçekten virgül olmalı 14.55 değil 14,55 olmalı
+//        System.out.println("Lütfen virgüllü sayı giriniz");
+//        double virgullu=klavye.nextDouble();
+//        System.out.println(virgullu);
+
+        //escape character backSlash
+        System.out.println("Ankara\nBolu");
+        System.out.println("Ankara\"");
+        System.out.println("Ankara\'deneme");
+        System.out.println("Ankara\'\tdeneme");
+
     }
 }

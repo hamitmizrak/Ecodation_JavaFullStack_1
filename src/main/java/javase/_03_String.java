@@ -13,6 +13,7 @@ public class _03_String {
         //char : \u0000
         //String primitive tür değildir.
 
+        //Doğal dil işlemede
         //kelime ==> String
         //NOT: Boşluk bir karakterdir.
         //sout

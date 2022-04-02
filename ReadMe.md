@@ -1,13 +1,14 @@
 # Ecodation Java Full Stack Developer -1 (1 Şubat 2022)
 * [GitHub](https://github.com/hamitmizrak/Ecodation_JavaFullStack_1)
-* 
+
 ### Gereksinimler
-Java 11
-intellij idea Ultimate 
+Java 17
+intellij idea Ultimate
 Visual Studio Code
 Node js
+---
 
-### Visual Studio codes
+## Visual Studio codes
 Extensisons
 - Browser preview
 - Auto Close tag
@@ -27,9 +28,10 @@ Extensisons
 - Project Manager
 - Reactjs code Snippets
 
+---
 
-### Tecnology
-#### FrontEnd
+## Tecnology
+##FrontEnd
 - Html5
 - Css3
 - responsive design
@@ -38,7 +40,10 @@ Extensisons
 - Bootstrap
 - react
 
-#### BackEnd
+
+---
+
+## BackEnd
 * javase
 * jdbc crud native
 * hibernate
@@ -48,29 +53,34 @@ Extensisons
 * spring rest
 * spring security
 
+---
 
-dependency
------------------------------------------------------------------------
-Spring Web
-Spring Data JPA
-Spring Security
-
+## Libraries
 Thymeleaf
 Lombok
 Validation
 
+## Database
 H2 Database
 Mysql
 Postgresql
 
+---
+## dependency
+Spring Web
+Spring Data JPA
+Spring Rest
+Spring Security
+
+---
+# Spring Tools
 Spring Boot DevTools
 Spring Configuration Processor
 Spring Boot Actuator
 
+---
 
-
-FrondEnd
------------------------------------------------------------------------
+## Docker Deployment
 
 1.ADIM
 npx create-react-app frontend
@@ -79,7 +89,7 @@ npm start
 code .
 
 2.ADIM
-NOT: node_modules siliyoruz bunu sonrasında 
+NOT: node_modules siliyoruz bunu sonrasında
 npm i
 
 3.ADIM

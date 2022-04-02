@@ -54,6 +54,12 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
         <!--  json web token-->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
@@ -68,11 +74,7 @@
             <version>2.8.6</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+
 
         <!--TEST-->
         <dependency>

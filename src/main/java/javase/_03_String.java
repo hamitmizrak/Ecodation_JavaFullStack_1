@@ -19,7 +19,7 @@ public class _03_String {
         //System.out.println(kelime);
         //kelime=kelime.concat(" -sona eklendi");
         //System.out.println(kelime);
-        String kelime = "Html5 Css3 JS Jquery Bootstrap JS ";
+        String kelime = "*** Html5 Css3 JS Jquery Bootstrap JS ";
 
         //concat: sona eklemek
         System.out.println(kelime.concat(" -sona eklemek"));
@@ -63,8 +63,18 @@ public class _03_String {
         //String nokta(.) koyarak ilerleyebiliyoruz
         System.out.println(kelime.concat("Mysql").trim().toLowerCase().length());
 
+        //String içeriğinin boş mu dolu mu olup olmadığını anlamak
+        System.out.println(kelime.isEmpty());
+        System.out.println(!kelime.isEmpty());
 
-//        System.out.println(kelime.);
+        //subString ==> String parçalama yapmak
+        String yeniKelime = kelime.substring(4);
+        System.out.println(yeniKelime);
+
+        //subString(0,3)
+        String yeniKelime2 = kelime.substring(0,3);  //0<=X<=(3-1)
+        System.out.println(yeniKelime2);
+
 //        System.out.println(kelime.);
 //        System.out.println(kelime.);
 //        System.out.println(kelime.);

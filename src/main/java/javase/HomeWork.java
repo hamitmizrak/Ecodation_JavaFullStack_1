@@ -25,4 +25,6 @@ public class HomeWork {
 //    1.sayı alt 2.sayı üst olacak üslü sayı pow
 //    1.sayı mutlak değeri abs
 //    2.sayınını karekökö  çıkan sayıyı yuvarlama sqrt , round
+
+    //Random Math , Random object nedir ?
 }

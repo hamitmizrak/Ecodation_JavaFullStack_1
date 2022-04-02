@@ -30,10 +30,19 @@ public class _04_JOptionPaneScanner {
 //        System.out.println(virgullu);
 
         //escape character backSlash
-        System.out.println("Ankara\nBolu");
-        System.out.println("Ankara\"");
-        System.out.println("Ankara\'deneme");
-        System.out.println("Ankara\'\tdeneme");
+//        System.out.println("Ankara\nBolu");
+//        System.out.println("Ankara\"");
+//        System.out.println("Ankara\'deneme");
+//        System.out.println("Ankara\'\tdeneme");
+
+        //C C++
+        //System
+//        System.out.print("Aynı  satır ");
+//        System.out.println("Alt satıra geçecek\nescapecaharacter");
+//        System.err.println("error");
+//        //System.in() //dış dünyadan veri almak
+//        System.exit(0); //çıkış sağlar
+//        System.gc();
 
     }
 }

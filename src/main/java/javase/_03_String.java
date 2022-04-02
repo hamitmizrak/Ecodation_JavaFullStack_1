@@ -16,7 +16,7 @@ public class _03_String {
         //kelime ==> String
         //NOT: Boşluk bir karakterdir.
         //sout
-        //System.out.println(kelime);
+        // System.out.println(kelime);
         //kelime=kelime.concat(" -sona eklendi");
         //System.out.println(kelime);
         String kelime = "*** Html5 Css3 JS Jquery Bootstrap JS ";

@@ -14,7 +14,7 @@ public class _05_Math {
         System.out.println(Math.min(-500, 25));//minumum
         System.out.println(Math.max(-500, 25));//maksimum
         System.out.println(Math.pow(2, 5));//2=taban 5=üst
-        System.out.println(Math.random() * 4 + 1);
+        System.out.println(Math.random() * 4 + 1);//rastgele sayı
         System.out.println(Math.floor(4.9)); //aşağı yuvarlamak
         System.out.println(Math.ceil(4.1)); //yukarı yuvarlamak
         System.out.println(Math.round(1.5)); //x>=.5 Yukarı yuvarlar

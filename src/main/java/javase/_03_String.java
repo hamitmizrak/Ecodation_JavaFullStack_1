@@ -19,8 +19,17 @@ public class _03_String {
 
         String kelime2 = "Html5 Css3 JS Jquery Bootstrap JS JavaSE";
         System.out.println(kelime.replace(kelime, kelime2));
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
+
+        //trim: kelimenin sadece başındaki ve sonundaki boşlukları siler
+        System.out.println(kelime.length());
+        System.out.println(kelime.trim().length());
+
+        //startsWith ==> Bununla mı başlıyor ? evet:true hayır:false
+        System.out.println("Bununla mı başlıyor: "+kelime.startsWith("H"));
+
+        //endsWith ==> Bununla mı bitiyor ? evet:true hayır:false
+        System.out.println("Bununla mı bitiyor:  "+kelime.endsWith(" "));
+
 //        System.out.println(kelime.);
 //        System.out.println(kelime.);
 //        System.out.println(kelime.);

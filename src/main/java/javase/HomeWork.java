@@ -27,4 +27,6 @@ public class HomeWork {
 //    2.sayınını karekökö  çıkan sayıyı yuvarlama sqrt , round
 
     //Random Math , Random object nedir ?
+
+    //cast: valueOf ==>toString veya parseInt
 }

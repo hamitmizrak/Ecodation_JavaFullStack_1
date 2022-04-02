@@ -75,18 +75,17 @@ public class _03_String {
         String yeniKelime2 = kelime.substring(0,3);  //0<=X<=(3-1)
         System.out.println(yeniKelime2);
 
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
+        //contains: Kelime içinde aradığımız kelime var mı yok mu
+         System.out.println(kelime.contains("Html5"));
+
+         //equals: iki farklı String yapı birbirine eşit mi değil mi ?
+         String data1="ankara",data2="ANKARA";
+         System.out.println("iki farklı kelime eşit mi? "+data1.equals(data2));
+
+         //Büyük küçük harfe bakmaksızın eşit mi değil mi
+         System.out.println("iki farklı kelime eşit mi? "+data1.equalsIgnoreCase(data2));
+
+
 
     }
 }

@@ -3,6 +3,14 @@ package javase;
 public class _03_String {
 
     public static void main(String[] args) {
+        //default değerler
+        //tam sayılarda:0
+        //virgüllü:0.0
+        //boolean:false
+        //String:null
+        //char : \u0000
+        //String primitive tür değildir.
+
         //kelime ==> String
         //NOT: Boşluk bir karakterdir.
         //sout
@@ -17,6 +25,8 @@ public class _03_String {
         //length: karakter sayısı
         System.out.println(kelime.length());
 
+        //replace: değiştirmek için kullanıyoruz.
+        //replace(eskiData,yeniData)
         String kelime2 = "Html5 Css3 JS Jquery Bootstrap JS JavaSE";
         System.out.println(kelime.replace(kelime, kelime2));
 
@@ -30,8 +40,18 @@ public class _03_String {
         //endsWith ==> Bununla mı bitiyor ? evet:true hayır:false
         System.out.println("Bununla mı bitiyor:  "+kelime.endsWith(" "));
 
-//        System.out.println(kelime.);
-//        System.out.println(kelime.);
+        //charAt: sıfır(0) indiste başlar
+        //charAt: biz sayı veriririz ilgili indisi bize döndürür
+        //charAt: aramalarda sıklıkla kullanılır.
+        System.out.println(kelime.charAt(33));
+
+        //indexOf veya lastIndexOf =-1 demek bulamadı anlamına geliyor.
+        //indexOf:arama
+        System.out.println("soldan arama: "+ kelime.indexOf("JS"));
+
+        //lastIndexOf:
+        System.out.println("sağdan arama: "+kelime.lastIndexOf("JS"));
+
 //        System.out.println(kelime.);
 //        System.out.println(kelime.);
 //        System.out.println(kelime.);

@@ -1,5 +1,7 @@
 package javase;
 
+import java.util.Locale;
+
 public class _03_String {
 
     public static void main(String[] args) {
@@ -35,10 +37,10 @@ public class _03_String {
         System.out.println(kelime.trim().length());
 
         //startsWith ==> Bununla mı başlıyor ? evet:true hayır:false
-        System.out.println("Bununla mı başlıyor: "+kelime.startsWith("H"));
+        System.out.println("Bununla mı başlıyor: " + kelime.startsWith("H"));
 
         //endsWith ==> Bununla mı bitiyor ? evet:true hayır:false
-        System.out.println("Bununla mı bitiyor:  "+kelime.endsWith(" "));
+        System.out.println("Bununla mı bitiyor:  " + kelime.endsWith(" "));
 
         //charAt: sıfır(0) indiste başlar
         //charAt: biz sayı veriririz ilgili indisi bize döndürür
@@ -47,12 +49,21 @@ public class _03_String {
 
         //indexOf veya lastIndexOf =-1 demek bulamadı anlamına geliyor.
         //indexOf:arama
-        System.out.println("soldan arama: "+ kelime.indexOf("JS"));
+        System.out.println("soldan arama: " + kelime.indexOf("JS"));
 
         //lastIndexOf:
-        System.out.println("sağdan arama: "+kelime.lastIndexOf("JS"));
+        System.out.println("sağdan arama: " + kelime.lastIndexOf("JS"));
 
-//        System.out.println(kelime.);
+        //toLowerCase() ==> bütün karakterleri küçük yaz
+        System.out.println(kelime.toLowerCase());
+
+        //toUpperCase() ==> bütün karakterleri büyük yaz
+        System.out.println(kelime.toUpperCase());
+
+        //String nokta(.) koyarak ilerleyebiliyoruz
+        System.out.println(kelime.concat("Mysql").trim().toLowerCase().length());
+
+
 //        System.out.println(kelime.);
 //        System.out.println(kelime.);
 //        System.out.println(kelime.);

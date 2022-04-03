@@ -2,6 +2,7 @@ package javase;
 
 public class _07_Cast {
     public static void main(String[] args) {
+
 //        //cast: dönüşüm sağlamak
 //        String kelime="44";
 //

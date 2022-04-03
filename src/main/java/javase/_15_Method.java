@@ -5,7 +5,7 @@ package javase;
 //        let deneme2=function(){}
 //        let deneme3=()=>{}
 public class _15_Method {
-
+    public static final double KARE=4.65;
     //1.voidli Parametresiz
     public void voidliParametresizMethod(){
         System.out.println("Voidli parametresiz method");

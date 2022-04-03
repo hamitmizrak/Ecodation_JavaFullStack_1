@@ -9,10 +9,11 @@ public class _10_Date {
         //DATE
         //Date depracated olmuştur yani günceline çalılabilirsiniz
         //System.currentTimeMillis() ==> 1 ocak 1970
-        // System.out.println(new Date(System.currentTimeMillis()));
+        // System.out.println(new Date(System.currentTimeMillis()));  //2022 4 3 9:10:5 - 1970 0 0 00:00
         // System.out.println(System.currentTimeMillis());
         //Date : Her zaman var olan yıla 1900 eklemliyiz
         //aylarda sıfırdan başlar
+
 
         java.util.Date date = new Date();
         System.out.println(date);
@@ -21,7 +22,7 @@ public class _10_Date {
         System.out.println(date.getYear() + 1900); //Tarihe+1900 eklemeliyiz
         int dateMemoryNumber = 2022 - date.getYear();
         System.out.println(dateMemoryNumber);
-        long times=System.currentTimeMillis();
+        long times=System.currentTimeMillis(); //1 ocak 1970
         System.out.println("********************************************");
         date.setMonth(11); //0 başlar
         System.out.println(date.getMonth()); //0 başlar
@@ -32,7 +33,5 @@ public class _10_Date {
         Date date1=new Date();
         String turkishTime=simpleDateFormat.format(date1);
         System.out.println(turkishTime);
-
-
     }
 }

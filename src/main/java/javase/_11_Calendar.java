@@ -3,7 +3,6 @@ package javase;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.Locale;
 
 public class _11_Calendar {
@@ -21,7 +20,5 @@ public class _11_Calendar {
         Calendar calendar = Calendar.getInstance(locale);
         String turkishTime2 = simpleDateFormat.format(calendar.getTime());
         System.out.println(turkishTime2);
-
-
     }
 }

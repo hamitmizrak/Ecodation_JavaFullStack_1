@@ -32,5 +32,18 @@ public class HomeWork {
 
     //java By pass value ? ==> memory
 
+    //inheritance abstarct interface polymorphism
+
+    //Software Prensible
+    //Spaggetti code nedir?
+    //clean code nedir?
+    //monad nedir?
+    //solid nedir?
+    //KISS nedir?
+    //CCP nedir ?
+    //YAGNI nedir?
+    //DRY nedir?
+
+
 
 }

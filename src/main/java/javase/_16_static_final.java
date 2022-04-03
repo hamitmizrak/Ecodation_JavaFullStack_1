@@ -7,6 +7,7 @@ package javase;
 
 //
 public  final class _16_static_final {
+
     //static: durağan
     public static final double KARE=4.65;
 

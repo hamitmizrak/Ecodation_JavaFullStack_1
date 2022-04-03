@@ -1,6 +1,6 @@
 package javase;
 
-public class _08_StringBuilder {
+public class _08_String_StringBuilder {
     public static void main(String[] args) {
         //String Birleştirmek
         String data1="Java JavaScript ";

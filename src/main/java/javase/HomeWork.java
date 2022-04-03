@@ -30,4 +30,7 @@ public class HomeWork {
     //cast: valueOf ==>toString veya parseInt
     //Stringbuilder ile StringBuffer arasındaki farklar ?
 
+    //java By pass value ? ==> memory
+
+
 }

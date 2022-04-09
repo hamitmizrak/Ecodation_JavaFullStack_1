@@ -4,7 +4,7 @@ import lombok.Data;
 import lombok.Getter;
 
 @Data
-public class DatabaseInformation {
+ public class DatabaseInformation {
     //object variable
     private String url;
     private String user;
@@ -18,13 +18,13 @@ public class DatabaseInformation {
         //Mysql
          this.user="root";
          this.password="root";
-         this.url="jdbc:mysql//localhost:3306/springboot";
-         this.forNameData="com.mysql.jdbc.Driver";
+         this.url="jdbc:mysql://localhost:3306/springboot";
+         this.forNameData="com.mysql.cj.jdbc.Driver";
 
         //Postgresql
         /*this.user = "root";
         this.password = "root";
-        this.url = "jdbc:postgresql//localhost:5432/springboot";
+        this.url = "jdbc:postgresql://localhost:5432/springboot";
         this.forNameData = "org.postgresql.Driver";*/
 
         //H2DB

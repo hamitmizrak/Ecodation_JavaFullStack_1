@@ -10,10 +10,10 @@ import java.sql.SQLException;
 public class DatabaseConnection extends DatabaseInformation {
 
     //database bağlanmak için konfigurasyon
-    private String url = this.getUrl();
-    private String user = this.getUser();
-    private String password = this.getPassword();
-    private String forNameData = this.getForNameData();
+    private String url = super.getUrl();
+    private String user = super.getUser();
+    private String password = super.getPassword();
+    private String forNameData = super.getForNameData();
 
     //database-Java bağlantı
     private java.sql.Connection connection;

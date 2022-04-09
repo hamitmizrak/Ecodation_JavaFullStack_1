@@ -33,7 +33,6 @@ public class DatabaseConnection extends DatabaseInformation {
             log.error("!!!! Bağlantı Kurulalamadı");
             exception.printStackTrace();
         }
-
     }
 
     public static DatabaseConnection getInstance() {

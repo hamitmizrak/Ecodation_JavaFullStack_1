@@ -14,6 +14,7 @@ public class HomeWork {
      */
 
 
+
     //////////////////////////////////////////////////////////////
     //MATH
     // //Kullanıcıdan alınan 2 sayı için; Scanner
@@ -43,6 +44,8 @@ public class HomeWork {
     //CCP nedir ?
     //YAGNI nedir?
     //DRY nedir?
+
+
 
 
 
